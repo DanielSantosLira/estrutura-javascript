@@ -1,7 +1,7 @@
 function Funcao(){
-let contador = 51
-    while(contador <= 99){
+    let contador = 0
+    while(contador <= 100){
         document.getElementById("resposta").innerHTML += "Número " + contador + "<br>"
-        contador = contador + 1
+        contador = contador + 2
     }  
 }
